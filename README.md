@@ -1,14 +1,7 @@
-# ¿Qué debo tener instalado antes de empezar?
+# Aclaraciones ‼️
 
-Antes de ejecutar este proyecto, asegurate de tener instalado:
-
-- Visual Studio Code  
-- Node.js  
-- Java JDK  
-- Git  
-- ANTLR 4.13.2 (que lo instalaremos desde el mismo Visual Studio Code).
-
-Si ya tenemos todo esto instalado, podemos proceder a ejecutar el programa. 
+Ejecutamos el archivo con el comando "node index.js" desde la terminal.
+El archivo del analizador ya contiene el input correcto 1 (adicional al archivo pedido). 
 
 ---
 
@@ -19,20 +12,25 @@ Permite declarar variables, hacer operaciones, imprimir por consola y usar estru
 
 ---
 
-## Cómo abrir el repositorio
+## Cómo abrir el repositorio 
 
-Abrí una terminal (puede ser CMD, PowerShell o Git Bash) en tu ordenador. Preferentemente utiliza "Símbolo del Sistema".
-
-Elegí una carpeta donde querés guardar el proyecto (por ejemplo: Documentos).
-Para crear esta carpeta en la terminal que hayaselegido, escribimos el comando "md (nombre que le quieras poner al archivo) y luego de esto para cambiar al archivo creado pondremos: "cd (nombre del archivo creado", que nos posicionar en dicha carpeta.
-
-Despues cloná el repositorio del siguiente modo, en la misma terminal donde hemos realizado todo escribe:
+Abrí una terminal (puede ser CMD, PowerShell o Git Bash) en tu ordenador.
+Despues cloná el repositorio del siguiente modo, en la terminal escribe:
 git clone https://github.com/arianarios88/52097.git
-Luego:
-cd 52097
+
+###Nota: veremos si esta bien clonando si en todas las líneas tenemos el mensaje de "done".
+
+Luego cambiamos al archivo con:
+cd 52097 
 Finalmente ponemos "code ."
 
-Esto nos abrira el Visual Estudio con todo nuestro repositorio clonado. Nos iremos al archivo input donde pegaremos el input correcto 1 (previamente copiado), dicho archivo nos aparece en el repositorio que hemos abierto:
+###en la terminal, claro esta.
+
+Esto nos abrira el Visual Estudio con todo nuestro repositorio clonado. En el lado izquierdo del programas veremos los archivos y carpetas (las 4 entradas, el readme y la gramatica), la que tiene por nombre ###"ssl-antlr-calculator" debemos abrirla y nos mostrará los archivos del analizador. 
+
+
+ En este caso, si queremos directamente correr el programa, ya deje puesta una entrada, pero si queremos cambiar esta misma por otra nos dirigimos a los archivos de inputs y hacemos copy,pegamos en el input de la carpeta Calculator.
+La entrada a probar predeterminada es la correcta número 1:
 
 variar x desde 1 hasta 5 con paso 1 hacer
     x <- x + 1
@@ -43,7 +41,8 @@ fin_variar
 
 ## Resultado esperado
 
-Y corremos el programa con F5.Presionamos ctrl + ñ que nos abrira la terminal del VS,en  este apartado se nos mostrará la tabla de lexemas y tokens, arbol de derivación y resultado esperado de la gramatica, para esto pondremos el comando "node index.js" y presionamos enter, esta entrada deberia mostrarnos el siguiente resultado:
+Y corremos el programa con F5.
+Presionamos ctrl + ñ que nos abrira la terminal del VS, en  este apartado se nos mostrará la tabla de lexemas y tokens, arbol de derivación y la traduccion a Java con resultado esperado de la gramatica, para ver esto pondremos el comando "node index.js" y presionamos enter, esta entrada deberia mostrarnos el siguiente resultado:
 
 Tabla de Tokens y Lexemas:
 --------------------------------------------------
