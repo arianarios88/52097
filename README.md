@@ -26,10 +26,10 @@ Finalmente ponemos "code ."
 
 ###en la terminal, claro esta.
 
-Esto nos abrira el Visual Estudio con todo nuestro repositorio clonado. En el lado izquierdo del programas veremos los archivos y carpetas (las 4 entradas, el readme y la gramatica), la que tiene por nombre "ssl-antlr-calculator" debemos abrirla y nos mostrará los archivos del analizador. 
+Esto nos abrira el Visual Estudio con todo nuestro repositorio clonado. En el lado izquierdo del programas veremos los archivos y carpetas (las 4 entradas, el readme y la gramatica). La que tiene por nombre "ssl-antlr-calculator" nos mostrará los archivos del analizador. 
 
 
- En este caso, si queremos directamente correr el programa, ya deje puesta una entrada, pero si queremos cambiar esta misma por otra nos dirigimos a los archivos de inputs y hacemos copy,pegamos en el input de la carpeta Calculator.
+ En este caso, si queremos directamente correr el programa, ya deje puesta una entrada, pero si queremos cambiar esta misma por otra nos dirigimos a los archivos de inputs, hacemos copy y pegamos en el input de la carpeta Calculator.
 La entrada a probar predeterminada es la correcta número 1:
 
 variar x desde 1 hasta 5 con paso 1 hacer
