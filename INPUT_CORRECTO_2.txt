@@ -1,0 +1,4 @@
+variar i desde 1 hasta 3 con paso 1 hacer
+    total <- total + (i * 2)
+    escribir total
+fin_variar

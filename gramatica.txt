@@ -1,0 +1,25 @@
+programa>::= {<instrucción>}+
+
+<instrucción>::= <variar>
+
+<variar> ::= "variar" <variable> "desde" <expresión> "hasta" <expresión> ["con paso"
+
+<expresión> ] "hacer" <bloque> "fin_variar"
+
+<variable>::= <identificador>
+
+<expresión> ::= <término> { ("+" | "-"*"["/") <término>
+
+<término> ::= <número> | <variable> | "(" <expresión> ")"
+
+<bloque> ::= {<instrucción> <instrucción> ::= <variar> | <asignación> | <salida>
+
+<asignación> ::= <variable> "<-"<expresión>
+
+<salida>::= "escribir" <expresión> <identificador>::= letra (letra | dígito | "_"}
+
+<número> ::= dígito {dígito}
+
+<letra> ::= "a" | "b" | ... | "z" | "A" | "B" | ... | "Z"
+
+<dígito> ::= "0" | "1" | ... | "9"

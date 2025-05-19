@@ -1,0 +1,4 @@
+variar 1x desde 0 hasta 10 con paso 1 hacer
+    1x <- 1x + 1
+    escribir 1x
+fin_variar
